@@ -1,13 +1,14 @@
 var titulo = document.querySelector("h1");
 console.log(titulo);
 console.log(titulo.textContent);
-titulo.textContent=("plk nutricao");
+titulo.textContent=("igor nutricao");
 
 
 var paciente = document.querySelector("#primeiro-paciente");
-var tdPeso = document.querySelector(".info-peso")
+console.log(nome);
+
+var tdPeso = document.querySelector(".info-peso");
 var peso = tdPeso.textContent;
-console.log(paciente);
 console.log(peso);
 
 var tdAltura = document.querySelector(".info-altura")
