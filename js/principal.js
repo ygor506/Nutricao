@@ -3,9 +3,10 @@ console.log(titulo);
 console.log(titulo.textContent);
 titulo.textContent = ("igor nutricao");
 
-var paciente = paciente.querySelector(".paciente");
+var pacientes = paciente.querySelector(".paciente");
 
 for (var i = 0; i < pacientes.length; i++) {
+
     var paciente = pacientes[i];
 
     var tdPeso = paciente.querySelector(".info-peso");
