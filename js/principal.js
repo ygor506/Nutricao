@@ -7,7 +7,7 @@ var paciente = paciente.querySelector(".paciente");
 
 for (var i = 0; i < pacientes.length; i++) {
     var paciente = pacientes[i];
-    
+
     var tdPeso = paciente.querySelector(".info-peso");
     var peso = tdPeso.textContent;
 
@@ -33,6 +33,7 @@ for (var i = 0; i < pacientes.length; i++) {
     }
 
     if (alturaEhvalida && pesoEhvalido) {
+       
         var imc = peso / (altura * altura);
         tdImc.textContent = imc;
     }
