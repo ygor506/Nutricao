@@ -1,4 +1,3 @@
-//console.log(document.querySelector("h1"));
 var titulo = document.querySelector("h1");
 console.log(titulo);
 console.log(titulo.textContent);
@@ -47,6 +46,3 @@ function calculaImc (peso, altura){
     var imc = peso / (altura * altura);
     return imc.toFixed(2);
 }
-
-
-//xdcfdfdsfsdfdsfs
